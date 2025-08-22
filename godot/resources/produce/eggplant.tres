@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://c3stg072ygc8u"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_0pxh5"]
+[ext_resource type="Texture2D" uid="uid://dofd8vbvjr8ol" path="res://assets/textures/produce/eggplant.png" id="2_0pxh5"]
+
+[resource]
+script = ExtResource("1_0pxh5")
+texture = ExtResource("2_0pxh5")
+theme_color = Color(0.505882, 0.286275, 0.607843, 1)
+commodity = "eggplant"
+variety = ""
+plu = 4081
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

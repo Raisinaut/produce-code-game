@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://clvrbgjkfjxsf"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_3im7m"]
+[ext_resource type="Texture2D" uid="uid://t4b5geduuutx" path="res://assets/textures/produce/dragonfruit_red.png" id="2_3im7m"]
+
+[resource]
+script = ExtResource("1_3im7m")
+texture = ExtResource("2_3im7m")
+theme_color = Color(0.803922, 0.188235, 0.364706, 1)
+commodity = "dragonfruit"
+variety = "red"
+plu = 3040
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

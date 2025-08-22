@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://bnisgiaetx5vo"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_b5a1y"]
+[ext_resource type="Texture2D" uid="uid://b2m6vn2q0mqfb" path="res://assets/textures/produce/corn.png" id="2_b5a1y"]
+
+[resource]
+script = ExtResource("1_b5a1y")
+texture = ExtResource("2_b5a1y")
+theme_color = Color(0.854902, 0.72549, 0.282353, 1)
+commodity = "corn"
+variety = ""
+plu = 4077
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

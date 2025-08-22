@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://bvbhoxdqygbqb"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_5f2td"]
+[ext_resource type="Texture2D" uid="uid://db7hec0cj76n5" path="res://assets/textures/produce/apple_red.png" id="2_5f2td"]
+
+[resource]
+script = ExtResource("1_5f2td")
+texture = ExtResource("2_5f2td")
+theme_color = Color(0.92549, 0.623529, 0.403922, 1)
+commodity = "apple"
+variety = "red"
+plu = 3284
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

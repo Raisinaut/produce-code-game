@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://dlkdy724lufp5"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_byf0l"]
+[ext_resource type="Texture2D" uid="uid://d08csn8fffqkx" path="res://assets/textures/produce/carrot.png" id="2_byf0l"]
+
+[resource]
+script = ExtResource("1_byf0l")
+texture = ExtResource("2_byf0l")
+theme_color = Color(0.909804, 0.607843, 0.321569, 1)
+commodity = "carrot"
+variety = "orange"
+plu = 4562
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

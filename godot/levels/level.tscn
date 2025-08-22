@@ -1,0 +1,68 @@
+[gd_scene load_steps=4 format=3 uid="uid://ovh87h16xppq"]
+
+[ext_resource type="PackedScene" uid="uid://27ss8l5547fx" path="res://entities/item.tscn" id="1_80vhd"]
+[ext_resource type="PackedScene" uid="uid://b2uyfnspilxps" path="res://general/spawner/spawner.tscn" id="2_hjsbj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_umreq"]
+size = Vector2(240, 62)
+
+[node name="Level" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(560, 192)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-151, 220)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_umreq")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(151, 220)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_umreq")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, 309)
+rotation = 3.14159
+shape = SubResource("RectangleShape2D_umreq")
+
+[node name="Item" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(555, 207)
+
+[node name="Item2" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(483, 78)
+
+[node name="Item3" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(567, 75)
+
+[node name="Item4" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(610, -85)
+
+[node name="Item5" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(540, -115)
+
+[node name="Item6" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(687, -6)
+
+[node name="Item7" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(502, -72)
+
+[node name="Item9" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(491, -170)
+
+[node name="Item10" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(548, -209)
+
+[node name="Item11" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(660, 141)
+
+[node name="Item12" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(462, -16)
+
+[node name="Item13" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(501, 132)
+
+[node name="Item8" parent="." instance=ExtResource("1_80vhd")]
+position = Vector2(608, -167)
+
+[node name="Spawner" parent="." instance=ExtResource("2_hjsbj")]

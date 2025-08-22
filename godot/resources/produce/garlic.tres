@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://c5m82prnrft0j"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_274hr"]
+[ext_resource type="Texture2D" uid="uid://bqikf62vyv03v" path="res://assets/textures/produce/garlic.png" id="2_274hr"]
+
+[resource]
+script = ExtResource("1_274hr")
+texture = ExtResource("2_274hr")
+theme_color = Color(0.964706, 0.839216, 0.74902, 1)
+commodity = "garlic"
+variety = ""
+plu = 4608
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://dapvqcnl2b0x5"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_35mps"]
+[ext_resource type="Texture2D" uid="uid://ij8q3ub5ilpp" path="res://assets/textures/produce/cabbage.png" id="2_eo6s0"]
+
+[resource]
+script = ExtResource("1_35mps")
+texture = ExtResource("2_eo6s0")
+theme_color = Color(0.537255, 0.898039, 0.529412, 1)
+commodity = "cabbage"
+variety = ""
+plu = 4069
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://dd22b1mf2nr5a"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_lxcyn"]
+[ext_resource type="Texture2D" uid="uid://cwln5mcjpvq0t" path="res://assets/textures/produce/cauliflower.png" id="2_lxcyn"]
+
+[resource]
+script = ExtResource("1_lxcyn")
+texture = ExtResource("2_lxcyn")
+theme_color = Color(0.886275, 0.854902, 0.772549, 1)
+commodity = "cauliflower"
+variety = ""
+plu = 4079
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

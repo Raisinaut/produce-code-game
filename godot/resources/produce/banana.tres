@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://b6su6aue6xjei"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_qu8hv"]
+[ext_resource type="Texture2D" uid="uid://bwqjtudsk787n" path="res://assets/textures/produce/banana.png" id="2_qu8hv"]
+
+[resource]
+script = ExtResource("1_qu8hv")
+texture = ExtResource("2_qu8hv")
+theme_color = Color(0.992157, 0.8, 0.309804, 1)
+commodity = "banana"
+variety = ""
+plu = 4011
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

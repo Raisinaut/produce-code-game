@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://c5m82prnrft0j"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_db42e"]
+[ext_resource type="Texture2D" uid="uid://cor6eykyvyjdd" path="res://assets/textures/produce/ginger.png" id="2_db42e"]
+
+[resource]
+script = ExtResource("1_db42e")
+texture = ExtResource("2_db42e")
+theme_color = Color(0.733333, 0.556863, 0.239216, 1)
+commodity = "ginger"
+variety = ""
+plu = 4612
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

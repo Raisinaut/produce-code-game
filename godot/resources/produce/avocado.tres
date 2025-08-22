@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://ddl0v1jkbfqt"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_ujlkk"]
+[ext_resource type="Texture2D" uid="uid://w216uj7uhmf7" path="res://assets/textures/produce/avocado_hass.png" id="2_3wtgx"]
+
+[resource]
+script = ExtResource("1_ujlkk")
+texture = ExtResource("2_3wtgx")
+theme_color = Color(0.529412, 0.556863, 0.356863, 1)
+commodity = "avocado"
+variety = ""
+plu = 4225
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"
