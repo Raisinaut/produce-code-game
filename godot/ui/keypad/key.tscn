@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dof5vqca2k3pw"]
+
+[ext_resource type="Script" uid="uid://dfsi3g2cyi5g6" path="res://ui/keypad/key.gd" id="1_eetpy"]
+
+[node name="Key" type="Button"]
+custom_minimum_size = Vector2(100, 100)
+theme_override_font_sizes/font_size = 50
+text = "1"
+clip_text = true
+script = ExtResource("1_eetpy")

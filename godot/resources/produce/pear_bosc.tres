@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://dblc232040cdj"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_33l7b"]
+[ext_resource type="Texture2D" uid="uid://d0bdvcuy7wpjy" path="res://assets/textures/produce/pear_bosc.png" id="2_33l7b"]
+
+[resource]
+script = ExtResource("1_33l7b")
+texture = ExtResource("2_33l7b")
+theme_color = Color(0.87451, 0.745098, 0.298039, 1)
+commodity = "pear"
+variety = "bosc"
+plu = 4026
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

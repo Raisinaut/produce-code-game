@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://bsbg5lj4nm1i4"]
+
+[ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_jb421"]
+[ext_resource type="Texture2D" uid="uid://df6864h5h611u" path="res://assets/textures/produce/pepper_green_bell.png" id="2_jb421"]
+
+[resource]
+script = ExtResource("1_jb421")
+texture = ExtResource("2_jb421")
+theme_color = Color(0.223529, 0.737255, 0.337255, 1)
+commodity = "pepper"
+variety = "green bell"
+plu = 4065
+metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

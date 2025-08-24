@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://dwvxiad0xdgge"]
 
 [ext_resource type="Script" uid="uid://dwk6orgtvcwl6" path="res://general/classes/item_data.gd" id="1_qhkhl"]
-[ext_resource type="Texture2D" uid="uid://d1rks1bivpln6" path="res://assets/textures/produce/nectarine.png" id="2_svy30"]
+[ext_resource type="Texture2D" uid="uid://d1rks1bivpln6" path="res://assets/textures/produce/peach.png" id="2_qhkhl"]
 
 [resource]
 script = ExtResource("1_qhkhl")
-texture = ExtResource("2_svy30")
+texture = ExtResource("2_qhkhl")
 theme_color = Color(0.835294, 0.258824, 0.258824, 1)
 commodity = "peach"
 variety = ""
-plu = 4036
+plu = 4044
 metadata/_custom_type_script = "uid://dwk6orgtvcwl6"

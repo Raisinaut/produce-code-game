@@ -1,24 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://b2uyfnspilxps"]
+[gd_scene load_steps=2 format=3 uid="uid://b2uyfnspilxps"]
 
 [ext_resource type="Script" uid="uid://b6yl1gsspue60" path="res://general/spawner/spawner.gd" id="1_h0tny"]
 
-[sub_resource type="Curve2D" id="Curve2D_2ue67"]
-resource_local_to_scene = true
-_data = {
-"points": PackedVector2Array(0, 0, 0, 0, 14.5455, 13.5384, 0, 0, 0, 0, 72.7273, 13.5384)
-}
-point_count = 2
-
 [node name="Spawner" type="Node2D"]
 script = ExtResource("1_h0tny")
-
-[node name="SpawnLine" type="Path2D" parent="."]
-position = Vector2(-16, -16)
-scale = Vector2(1.1, 1.18182)
-curve = SubResource("Curve2D_2ue67")
-
-[node name="LinePosition" type="PathFollow2D" parent="SpawnLine"]
-position = Vector2(14.5455, 13.5384)
-
-[node name="Interval" type="Timer" parent="."]
-wait_time = 2.0
