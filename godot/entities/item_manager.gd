@@ -18,5 +18,8 @@ func remove_matches(plu : int, quantity : int) -> int:
 			if found < quantity:
 				item.queue_free()
 			found += 1
+		else:
+			# reengage physics in remaining items
+			item.sleeping = false
 	
 	return quantity - found

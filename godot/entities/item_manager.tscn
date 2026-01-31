@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://c4ksk3jrvfrso"]
+[gd_scene format=3 uid="uid://c4ksk3jrvfrso"]
 
 [ext_resource type="Script" uid="uid://dxlt51eoy5ba7" path="res://entities/item_manager.gd" id="1_naria"]
 
-[node name="ItemManager" type="Node2D"]
+[node name="ItemManager" type="Node2D" unique_id=1800271813]
 script = ExtResource("1_naria")

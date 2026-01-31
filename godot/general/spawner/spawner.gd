@@ -37,6 +37,7 @@ func get_random_spawn_position() -> Vector2:
 	var invalid_child_type = not (get_child(0) is ReferenceRect)
 	# return zero vector if no valid child exists
 	if no_children or invalid_child_type:
+		push_error("No reference rect provided. Returned zero vector.")
 		return Vector2.ZERO
 	# generate random coordinates in spawn area
 	var spawn_area : ReferenceRect = get_child(0)

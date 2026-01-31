@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://27ss8l5547fx"]
+
+[ext_resource type="Script" uid="uid://dmj7xr11hq64" path="res://entities/item/scripts/item.gd" id="1_itrh2"]
+[ext_resource type="Resource" uid="uid://bvbhoxdqygbqb" path="res://resources/produce/apple_red.tres" id="2_lry01"]
+[ext_resource type="Texture2D" uid="uid://boy4p58mvlm8f" path="res://assets/circle.png" id="3_3a21u"]
+[ext_resource type="Texture2D" uid="uid://bwqjtudsk787n" path="res://assets/textures/produce/banana.png" id="4_unt4c"]
+[ext_resource type="Script" uid="uid://dkxswn31c4px4" path="res://entities/item/mouse_detection.gd" id="5_q5bj8"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_lry01"]
+friction = 0.1
+bounce = 0.1
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ij2us"]
+radius = 32.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lry01"]
+radius = 8.0
+
+[node name="Item" type="RigidBody2D" unique_id=1833871048]
+physics_material_override = SubResource("PhysicsMaterial_lry01")
+script = ExtResource("1_itrh2")
+data = ExtResource("2_lry01")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1558884621]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("3_3a21u")
+
+[node name="MouseDetection" type="Area2D" parent="." unique_id=1599608852]
+script = ExtResource("5_q5bj8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MouseDetection" unique_id=1934852965]
+visible = false
+shape = SubResource("CircleShape2D_ij2us")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=450286126]
+scale = Vector2(3.9, 3.9)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=254106299]
+visible = false
+scale = Vector2(4, 4)
+shape = SubResource("CircleShape2D_lry01")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1988682392]
+scale = Vector2(3, 3)
+texture = ExtResource("4_unt4c")
+
+[node name="NameLabel" type="Label" parent="." unique_id=180167892]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -21.0
+offset_right = 24.0
+offset_bottom = 21.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
